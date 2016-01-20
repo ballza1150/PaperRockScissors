@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         scissorImageView = (ImageView) findViewById(R.id.imvscissors);
         playImageView = (ImageView) findViewById(R.id.imvplayer);
         androidImageView = (ImageView) findViewById(R.id.imvAndroid);
+
     }
 
 }    // Main Class นี้คือคลาสหลัก
