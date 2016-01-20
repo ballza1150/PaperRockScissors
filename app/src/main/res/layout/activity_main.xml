@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/head"
-        android:id="@+id/textView"
+        android:id="@+id/txtshow"
         android:textSize="@dimen/h1"
         android:layout_centerHorizontal="true" />
 
@@ -26,21 +26,21 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView"
+            android:id="@+id/imvpaper"
             android:layout_weight="1"
             android:src="@drawable/paper" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView2"
+            android:id="@+id/imvrock"
             android:layout_weight="1"
             android:src="@drawable/rock" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView3"
+            android:id="@+id/imvscissors"
             android:layout_weight="1"
             android:src="@drawable/scissors" />
     </LinearLayout>
@@ -54,20 +54,20 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView4"
+            android:id="@+id/imvplayer"
             android:layout_weight="1" />
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView5"
+            android:id="@+id/imvlogo"
             android:layout_weight="1"
             android:src="@drawable/logo" />
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView6"
+            android:id="@+id/imvAndroid"
             android:layout_weight="1" />
     </LinearLayout>
 
