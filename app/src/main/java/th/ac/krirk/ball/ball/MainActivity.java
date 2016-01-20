@@ -1,5 +1,6 @@
 package th.ac.krirk.ball.ball;
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -74,6 +75,23 @@ public class MainActivity extends AppCompatActivity {
     private void changePlay(int intNumber) {
 
         Log.d("test", "ค่าที่ได้รับ = " + intNumber);
+        int intSound = R.raw.mosquito;
+
+        switch (intNumber) {
+            case 1:
+                playImageView.setImageResource(R.drawable.paper);
+                intSound = R.raw.
+                break;
+            case 2:
+                playImageView.setImageResource(R.drawable.rock);
+                break;
+            case 3:
+                playImageView.setImageResource(R.drawable.scissors);
+                break;
+        } // switch
+
+        MediaPlayer imagMediaPlayer = MediaPlayer.create(getBaseContext(). intSound);
+        imagMediaPlayer.start();
 
     }  //  changePlay
 
