@@ -94,6 +94,12 @@ public class MainActivity extends AppCompatActivity {
         String strLost = "เห้ย มุงแพ้แบ้ว";
         String strDew = "อะไรเนื่ย ใจตรงกัน";
         String strShow = null;
+        int[] intSound = new int[3];
+        intSound[0] = R.raw.cow;
+        intSound[1] = R.raw.cow;
+        intSound[2] = R.raw.cow;
+        int intShowSound;
+
 
         // 1 ==> กระดาษ, 2 ==> ค้อน 3 ==> กรรไกร
         switch (intUser) {
@@ -140,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
         } // switch
 
         showTextView.setText(strShow);
+
 
     } // checkScore
 
