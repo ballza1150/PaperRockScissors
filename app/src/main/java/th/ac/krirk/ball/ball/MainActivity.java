@@ -174,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
         } // switch
         MediaPlayer imagMediaPlayer = MediaPlayer.create(getBaseContext(),intSound);
         imagMediaPlayer.start();
+
     }  //  changePlay
 
     private void bindWidget() {
